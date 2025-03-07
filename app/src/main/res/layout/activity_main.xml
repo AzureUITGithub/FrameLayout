@@ -7,13 +7,12 @@
     android:orientation="vertical"
     tools:context="com.example.lab1.MainActivity">
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:background="@color/color0"
-        android:orientation="horizontal"></LinearLayout>
+        android:orientation="horizontal" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,47 +23,59 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:layout_weight="2"
             android:orientation="vertical">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:background="@color/color2"
-                android:orientation="vertical"
+                android:orientation="vertical">
 
-                >
-
+                <!-- Color6 với Color5 (màu hồng) -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/color6"
+                    android:gravity="end">
                     <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="0dp"
-                        android:layout_weight="1"
-                        android:background="@color/color6"></LinearLayout>
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/color5"
+                        ></LinearLayout>
+                </LinearLayout>
+
+                <!-- Màu trắng -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:gravity="end">
                     <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="0dp"
-                        android:layout_weight="1"
-                        android:background="@color/white"></LinearLayout>
-                     <!-- Căn giữa màn hình -->
-
-
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/color5"
+                        ></LinearLayout>
+                </LinearLayout>
 
             </LinearLayout>
-
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:background="@color/color3"
-                android:orientation="horizontal"></LinearLayout>
+                android:orientation="horizontal"/>
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:layout_weight="2"
             android:background="@color/color1"
-            android:orientation="vertical"></LinearLayout>
+            android:orientation="vertical"/>
     </LinearLayout>
 </LinearLayout>
